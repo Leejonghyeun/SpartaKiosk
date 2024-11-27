@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 
 public enum MenuCategory {
-    BURGERS("Buergers", Arrays.asList(
-            new Menuitem("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거")
-            new Menuitem("SmokeShack", 8.9, "베이컨, 체리 페퍼, 쉑소스가 토핑된 치즈버거")
-            new Menuitem("ShroomBurger", 7.9, "포르토벨로 버섯, 멜팅 치즈, 쉑소스가 토핑된 버거")
+    BURGERS("Burgers", Arrays.asList(
+            new MenuItem("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"),
+            new MenuItem("SmokeShack", 8.9, "베이컨, 체리 페퍼, 쉑소스가 토핑된 치즈버거"),
+            new MenuItem("ShroomBurger", 7.9, "포르토벨로 버섯, 멜팅 치즈, 쉑소스가 토핑된 버거")
     )),
     DRINKS("Drinks", Arrays.asList(
             new MenuItem("Coke", 2.5, "시원한 코카콜라"),
